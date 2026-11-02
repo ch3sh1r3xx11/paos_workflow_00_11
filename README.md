@@ -29,3 +29,7 @@ Szablon plików do prowadzenia projektu z agentem AI. Cała prawda o projekcie l
 **Żywe** pliki nadpisujesz, bo pokazują stan obecny. **Księgi** tylko dopisujesz, więc historia nigdy nie ginie. Każdy nowy plik dostaje numer według pasma z `00_index.md` i wpis w tym indeksie.
 
 `08_zasady_pracy.md` wspomina skill `/praca`, który automatyzuje start i koniec sesji. Skilla nie ma w tym repo, ale te kroki można wykonać ręcznie, zgodnie z punktami 3 i 4 powyżej.
+
+## Licencja
+
+[MIT](LICENSE): możesz używać, zmieniać i rozpowszechniać ten szablon, także komercyjnie, zachowując informację o licencji.
