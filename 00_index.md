@@ -39,9 +39,6 @@
 - [11_roadmap.md](11_roadmap.md) — roadmapa faz projektu.
 
 ## 30–39 · Referencje / szablony (Stały warsztat techniczny)
-- [30_paos_perplexity_guidelines.md](30_paos_perplexity_guidelines.md)
-- [31_summarizer_template.md](31_summarizer_template.md)
-- [32_prompt_seed_generator_vscode.md](32_prompt_seed_generator_vscode.md)
-- [33_n8n_mcp_bridge_setup.md](33_n8n_mcp_bridge_setup.md)
+- Pasmo na własne szablony i instrukcje; szablon startuje bez plików w tym paśmie.
 
 > **Zasada:** każdy nowy plik w głównym katalogu dostaje numer wg pasma powyżej i wpis w tym indeksie. Numery bez indeksu gniją — indeks jest prawdziwym systemem.
