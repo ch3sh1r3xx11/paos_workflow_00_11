@@ -9,6 +9,8 @@ Szablon plików do prowadzenia projektu z agentem AI. Cała prawda o projekcie l
 3. Przekaż agentowi `08_zasady_pracy.md` i każ mu zaczynać każdą sesję od `00_index.md`, `00_now.md` i `01_backlog.md`.
 4. Na koniec sesji niech dopisze wpis do `03_sessions.md`, a zrobione zadania do `02_worklog.md`.
 
+Kroki 3 i 4 automatyzuje skill `/praca` dla Claude Code (niżej).
+
 ## Pliki
 
 | Plik | Do czego służy | Typ |
@@ -28,7 +30,14 @@ Szablon plików do prowadzenia projektu z agentem AI. Cała prawda o projekcie l
 
 **Żywe** pliki nadpisujesz, bo pokazują stan obecny. **Księgi** tylko dopisujesz, więc historia nigdy nie ginie. Każdy nowy plik dostaje numer według pasma z `00_index.md` i wpis w tym indeksie.
 
-`08_zasady_pracy.md` wspomina skill `/praca`, który automatyzuje start i koniec sesji. Skilla nie ma w tym repo, ale te kroki można wykonać ręcznie, zgodnie z punktami 3 i 4 powyżej.
+## Skill `/praca` (Claude Code)
+
+W `.claude/skills/praca/SKILL.md` leży skill, który automatyzuje start i koniec sesji:
+
+- `/praca start`: agent czyta `00_index.md`, `00_now.md`, `01_backlog.md` i ostatni wpis sesji, sprawdza, czy pliki zgadzają się z rzeczywistością, i daje krótki briefing.
+- `/praca koniec`: agent dopisuje wpis sesji i zrobione zadania do ksiąg, aktualizuje pliki żywe i decyzje.
+
+Instalacja: skopiuj folder `.claude/skills/praca` do swojego projektu (albo do `~/.claude/skills/`, żeby działał wszędzie). Skill ma `disable-model-invocation: true`, więc uruchamiasz go tylko Ty, wpisując komendę; agent nie zamknie sesji sam.
 
 ## Licencja
 
