@@ -1,4 +1,6 @@
-# PAOS workflow 00–11
+# PAOS: Project Artifacts Operating System
+
+Szablon plików 00–11 i skill `/praca`, które utrzymują ciągłość pracy i kontekst projektu przez miesiące pracy z agentami AI.
 
 Szablon plików do prowadzenia projektu z agentem AI. Cała prawda o projekcie leży w plikach, nie w historii czatu, więc nowa sesja zaczyna od przeczytania kilku plików zamiast od tłumaczenia wszystkiego od nowa.
 
